@@ -1,0 +1,18 @@
+{
+	"nodes" : {
+		"nodeId": ["one", "two", "three", "four"],
+		"dimReduct": [[1,2,3],[4,5,6],[7,8,9]]
+	},
+	"edges": {
+		"edgeId": ["one_two", "two_three", "two_four", "three_four"],
+		"nodeId1": ["one", "two", "two", "three"],
+		"nodeId2": ["two", "three", "four", "four"],
+		"direction" : ["undirected", "1->2", "1<-2", "1<->2"]
+	},
+	"cellMapping": {
+		"cellId": ["foo", "bar", "baz", "che", "meh", "loo", "zuzu", "foob", "boo", "zam"],
+		"edgeId": ["one_two", "one_two", "one_two", "two_three", "two_three",  "two_four", "two_four", "three_four", "three_four", "three_four"],
+		"psuedotime": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		"curveDistance" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	}
+}
