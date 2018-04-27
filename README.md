@@ -7,6 +7,4 @@ and your favorite utility for validation ect.
 Can use jsvalidate-cli for command line validation:
 `jsvalidate -s v1.graph-schema.json v1.graph-example.json`
 
-The wiki will be continually updated with details for the format-specs.
-
-
+Check the wiki for details/discussion.
